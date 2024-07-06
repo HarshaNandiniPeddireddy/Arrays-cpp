@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    long long int N;
+    cin>>N;
+    long long int count=(N/3)+(N/5)-(N/15);
+    cout<<count;
+    return 0;
+}
